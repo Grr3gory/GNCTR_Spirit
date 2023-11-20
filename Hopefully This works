@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>East Coast Fun Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #87CEEB; /* Sky Blue */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4682B4; /* Steel Blue */
+            color: #FFF;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .fish-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        footer {
+            background-color: #4682B4; /* Steel Blue */
+            color: #FFF;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the East Coast Fun Website</h1>
+    </header>
+
+    <section>
+        <h2>Newfoundland Theme</h2>
+        <p>Explore the beauty of the East Coast Newfoundland!</p>
+        <img src="newfoundland.jpg" alt="Newfoundland Landscape" style="max-width: 100%; height: auto;">
+    </section>
+
+    <section>
+        <h2>Bathtub Adventure</h2>
+        <p>Embark on a bathtub-themed adventure!</p>
+        <img src="bathtub.jpg" alt="Bathtub Adventure" style="max-width: 100%; height: auto;">
+    </section>
+
+    <section>
+        <h2>Fishes Galore</h2>
+        <p>Dive into the underwater world of fishes!</p>
+        <img class="fish-image" src="fish1.jpg" alt="Colorful Fish">
+        <img class="fish-image" src="fish2.jpg" alt="Another Colorful Fish">
+    </section>
+
+    <footer>
+        <p>© 2023 East Coast Fun Website</p>
+    </footer>
+
+</body>
+</html>
